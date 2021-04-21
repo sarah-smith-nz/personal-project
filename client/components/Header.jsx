@@ -1,17 +1,14 @@
 import React from 'react'
-import colors from '../colors'
+// import colors from '../colors'
+import Navigator from './Navigator'
 
 function Header () {
   return (
     <>
-      <div className="flex justify-center container mx-auto ">
-        <div className="flex p-4 md-items-center">
-          {/* <img src="images/unsplashbike.jpg" className="h-3 w-3" /> */}
-          <div style={{ color: colors.color2 }}>MBA</div>
-        </div>
-      </div>
+      <Navigator/>
 
     </>
   )
 }
+
 export default Header

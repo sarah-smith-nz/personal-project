@@ -1,27 +1,28 @@
-import React, { useState, useEffect } from 'react'
-import { getGreeting } from '../apiClient'
+import React from 'react'
+// import { getGreeting } from '../apiClient'
+// import './main.css'
 import Header from './Header'
+import ShowImage from './ShowImage'
 
 const App = () => {
-  const [greeting, setGreeting] = useState('')
-  const [count, setCount] = useState(0)
+  // const [greeting, setGreeting] = useState('')
+  // const [count, setCount] = useState(0)
 
-  useEffect(() => {
-    getGreeting()
-      .then((greeting) => {
-        console.log(greeting)
-        setGreeting(greeting)
-      })
-  }, [count])
+  // useEffect(() => {
+  //   getGreeting()
+  //     .then((greeting) => {
+  //       console.log(greeting)
+  //       setGreeting(greeting)
+  //     })
+  // }, [count])
 
   return (
-    <>
-      <Header />
-      <h1>{greeting}</h1>
-      <h3>Vote for your favourite ride type</h3>
-      <button onClick={() => setCount(count + 1)}>Mountain Biking</button>
-      {count}
-    </>
+    <div className="md:container md:mx-auto pt-6">
+      <div>
+        <Header />
+        <ShowImage/>
+      </div>
+    </div>
   )
 }
 
