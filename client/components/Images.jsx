@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import { getImages } from '../apiClient'
-import Image from './Image'
+// import Image from './Image'
 
 function Images () {
   // console.log('string')
@@ -20,7 +20,7 @@ function Images () {
   return (
     <>
       { !data ? <p>Loading....</p>
-        : <img src={ setData } width='auto' height='auto'/>}
+        : <img src='../images/unsplashbike.jpg'width='auto' height='auto'/> }
 
     </>
   )
