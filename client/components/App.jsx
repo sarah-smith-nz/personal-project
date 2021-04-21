@@ -5,6 +5,7 @@ import Header from './Header'
 import ShowImage from './ShowImage'
 import Body from './Body'
 import MapShow from './MapShow'
+import West from './West'
 
 const App = () => {
   // const [greeting, setGreeting] = useState('')
@@ -25,6 +26,7 @@ const App = () => {
         <ShowImage/>
         <Body />
         <MapShow />
+        <West />
       </div>
     </div>
   )
