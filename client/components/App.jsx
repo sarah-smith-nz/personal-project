@@ -24,7 +24,7 @@ const App = () => {
         <Header />
         <ShowImage/>
         <Body />
-        <MapShow/>
+        <MapShow />
       </div>
     </div>
   )
