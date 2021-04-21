@@ -3,6 +3,8 @@ import React from 'react'
 // import './main.css'
 import Header from './Header'
 import ShowImage from './ShowImage'
+import Body from './Body'
+import MapShow from './MapShow'
 
 const App = () => {
   // const [greeting, setGreeting] = useState('')
@@ -21,6 +23,8 @@ const App = () => {
       <div>
         <Header />
         <ShowImage/>
+        <Body />
+        <MapShow/>
       </div>
     </div>
   )
