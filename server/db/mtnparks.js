@@ -5,5 +5,5 @@ module.exports = {
 }
 
 function getParks (db = connection) {
-  return db('parks').select()
+  return db('mtnparks').select()
 }

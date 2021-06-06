@@ -4,8 +4,9 @@ const router = require('express').Router()
 router.get('/gallery', (req, res) => {
   res.json('bikes')
   return null
-  .catch(err => {
-  res.status(500).send(err.message)
+    .catch(err => {
+      res.status(500).send(err.message)
+    })
 })
 
 module.exports = router
