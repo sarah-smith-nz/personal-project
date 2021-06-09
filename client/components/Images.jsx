@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react'
-import { getImages } from '../apiClient'
+import { getImages } from '../consume'
 // import Image from './Image'
 
 function Images () {

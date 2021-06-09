@@ -1,5 +1,5 @@
 import React from 'react'
-import { getImages } from '../apiClient'
+import { getImages } from '../consume'
 
 function Image ({ props }) {
   getImages({ props })

@@ -9,7 +9,6 @@ function West () {
             WEST AUCKLAND<br></br>
             Auckland's Home Ground for Mountain Biking. Our newly built 50km+ network is NZ's most frequented and has something for every level of rider. We're 40 minutes from downtown Auckland, have 75+ hire bikes, an onsite mechanic service, proshop & small cafe.<br></br>
             <img src="../images/Woodhilltrails.png" width='300px' height='auto'/>
-            <img src="../images/Woodhilltrails.png" width='300px' height='auto'/>
 
 
           </div>

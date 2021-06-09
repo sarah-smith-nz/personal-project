@@ -26,7 +26,6 @@ const App = () => {
         <ShowImage/>
         <Body />
         <MapShow />
-        <West />
       </div>
     </div>
   )

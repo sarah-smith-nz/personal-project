@@ -16,20 +16,6 @@ export default function consume (endpoint, method = 'get', data = {}) {
     })
 }
 
-export function getPark () {
-  return request.get('/api/v1/mtnpark')
-    .then(res => {
-      return res.body
-    })
-}
-
-export function getParkApprovalStatus (id) {
-  return request.get(`/api/v1/mtnpark/${id}`)
-    .then(res => {
-      return res.body
-    })
-}
-
 export function getImages () {
   return request.get('https://pixabay.com/api/?key=21260909-a1caa682172de022a6e337313&q=yellow+flowers&image_type=photo')
     .then(response => {
