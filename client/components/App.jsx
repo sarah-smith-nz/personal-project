@@ -8,17 +8,6 @@ import MapShow from './MapShow'
 import Footer from './Footer'
 
 const App = () => {
-  // const [greeting, setGreeting] = useState('')
-  // const [count, setCount] = useState(0)
-
-  // useEffect(() => {
-  //   getGreeting()
-  //     .then((greeting) => {
-  //       console.log(greeting)
-  //       setGreeting(greeting)
-  //     })
-  // }, [count])
-
   return (
     <div className="md:container md:mx-auto pt-6">
       <div>

@@ -1,4 +1,5 @@
 import React from 'react'
+import Map from './Map'
 
 function MapShow () {
   return (
@@ -7,9 +8,7 @@ function MapShow () {
       <nav className="relative flex border-t-2 py-3  px-2 py-3 bg-green-900 mb-3">
         <div className="container px-4 mx-auto flex flex-wrap items-center justify-center">
           <div className="text-white text-center  text-xl w-full relative flex justify-center">
-
-            <a href="https://www.google.com/maps/d/embed?mid=1o4G7KEV_FbyPDrTBV35UPFSDLPo&ie=UTF8&hl=en&msa=0&ll=-36.86094399999999%2C174.77325400000004&spn=0.76912%2C1.167297&z=9&output=embed"><img src="../images/MapFill.JPG" width='auto' height='auto'/> </a>
-
+            <Map />
           </div>
         </div>
         <div className="mt-2 mb-5 mx-8 flex-col items-start justify-start sm:flex m:flex lg:flex">

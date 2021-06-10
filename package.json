@@ -43,7 +43,9 @@
     "cors": "^2.8.5",
     "express": "^4.17.1",
     "knex": "^0.95.6",
+    "leaflet": "^1.7.1",
     "pg": "^8.6.0",
+    "react-leaflet": "^3.2.0",
     "sqlite3": "^5.0.2"
   },
   "devDependencies": {
